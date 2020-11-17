@@ -38,6 +38,9 @@ var (
 		"json": func(encoderConfig zapcore.EncoderConfig) (zapcore.Encoder, error) {
 			return zapcore.NewJSONEncoder(encoderConfig), nil
 		},
+		"consoleraw": func(encoderConfig zapcore.EncoderConfig) (zapcore.Encoder, error) {
+			return zapcore.NewConsoleRawEncoder(encoderConfig), nil
+		},
 	}
 	_encoderMutex sync.RWMutex
 )

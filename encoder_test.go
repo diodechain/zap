@@ -29,7 +29,7 @@ import (
 )
 
 func TestRegisterDefaultEncoders(t *testing.T) {
-	testEncodersRegistered(t, "console", "json")
+	testEncodersRegistered(t, "console", "json", "consoleraw")
 }
 
 func TestRegisterEncoder(t *testing.T) {
