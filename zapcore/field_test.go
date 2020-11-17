@@ -30,8 +30,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.uber.org/zap"
-	. "go.uber.org/zap/zapcore"
+	"github.com/diodechain/zap"
+	. "github.com/diodechain/zap/zapcore"
 )
 
 type users int

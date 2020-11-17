@@ -19,9 +19,9 @@
 // THE SOFTWARE.
 
 // Package zapgrpc provides a logger that is compatible with grpclog.
-package zapgrpc // import "go.uber.org/zap/zapgrpc"
+package zapgrpc // import "github.com/diodechain/zap/zapgrpc"
 
-import "go.uber.org/zap"
+import "github.com/diodechain/zap"
 
 // An Option overrides a Logger's default configuration.
 type Option interface {

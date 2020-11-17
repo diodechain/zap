@@ -24,9 +24,9 @@ import (
 	"errors"
 	"testing"
 
-	"go.uber.org/zap/internal/ztest"
-	. "go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zaptest/observer"
+	"github.com/diodechain/zap/internal/ztest"
+	. "github.com/diodechain/zap/zapcore"
+	"github.com/diodechain/zap/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 )

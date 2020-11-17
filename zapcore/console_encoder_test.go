@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	. "go.uber.org/zap/zapcore"
+	. "github.com/diodechain/zap/zapcore"
 )
 
 var (

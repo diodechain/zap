@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"go.uber.org/zap/zapcore"
+	"github.com/diodechain/zap/zapcore"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -29,8 +29,8 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"go.uber.org/zap/buffer"
-	"go.uber.org/zap/internal/bufferpool"
+	"github.com/diodechain/zap/buffer"
+	"github.com/diodechain/zap/internal/bufferpool"
 )
 
 var _rawPool = sync.Pool{New: func() interface{} {

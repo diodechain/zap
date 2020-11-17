@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/diodechain/zap"
+	"github.com/diodechain/zap/zapcore"
 	"github.com/stretchr/testify/assert"
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
 )
 
 // TestRawEncodeEntry is an more "integrated" test that makes it easier to get

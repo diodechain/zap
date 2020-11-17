@@ -1,7 +1,7 @@
 language: go
 sudo: false
 
-go_import_path: go.uber.org/zap
+go_import_path: github.com/diodechain/zap
 env:
   global:
     - TEST_TIMEOUT_SCALE=10

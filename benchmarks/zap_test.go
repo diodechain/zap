@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"go.uber.org/multierr"
-	"go.uber.org/zap"
-	"go.uber.org/zap/internal/ztest"
-	"go.uber.org/zap/zapcore"
+	"github.com/diodechain/zap"
+	"github.com/diodechain/zap/internal/ztest"
+	"github.com/diodechain/zap/zapcore"
 )
 
 var (
